@@ -3,17 +3,149 @@
 	<head>
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-		<title></title>
+		<title>Sebastián Bravo</title>
 		<meta name="description" content="">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 
+		<script src="js/jquery-3.1.1.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+		<script src="https://code.angularjs.org/snapshot/angular.min.js"></script>
+ 		
+ 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 		<link rel="stylesheet" href="css/normalize.min.css">
 		<link rel="stylesheet" href="css/main.css">
+		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 
 	</head>
-	<body>
+	<body ng-app="AppBCH">
 
-		<p>Hola Mundo</p>
+		<header>
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12"><img src="img/logo-BCH.jpg"></div>
+				</div>
+			</div>
+		</header>
+		
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<h1>Título</h1>
+				</div>
+			</div>
+		</div>
+		
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<table width="100%" border="0" cellpadding="0" cellspacing="0" class="table-top">
+					  <tr>
+					    <td class="top">
+					    	<h2>Título Caja</h2>
+					    </td>
+					  </tr>
+					  <tr>
+					    <td>
+					    	<table width="100%" border="0" cellpadding="0" cellspacing="0">
+							  <tr>
+							    <td width="30%">
+							    	<h3>Lorem Ipsum</h3>
+							    	<ul>
+							    		<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+							    		<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+							    		<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+							    		<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+							    	</ul>
+							    </td>
+							    <td width="70%">
+							    	<table width="97%" border="0" cellpadding="0" cellspacing="0" class="table-result">
+									  <tr>
+									    <td><p>Phasellus sit amet rhoncus magna. Nam dictum, libero non pulvinar tempus.</p></td>
+									    <td><p>$200.000.000.000.000</p></td>
+									  </tr>
 
+									  <tr>
+									    <td><p>Phasellus sit amet rhoncus magna. Nam dictum, libero non pulvinar tempus</p></td>
+									    <td><p>$200.000.000.000.000</p></td>
+									  </tr>
+									</table>
+							    </td>
+							  </tr>
+							</table>
+					    </td>
+					  </tr>
+					</table>
+				</div>
+			</div>
+		</div>
+
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="col-md-6">Total Ítems : {{count}}</div>
+					<div class="col-md-6"><button ng-click="count = count + 1" ng-init="count=0">Abrir</buttom></div>
+				</div>
+			</div>
+		</div>
+
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+				<table width="100%" border="0" cellpadding="0" cellspacing="0" class="table-bottom">
+				<tr>
+					<th>Lorem</th>
+					<th>Ipsum</th>
+					<th>Dolor</th>
+					<th>Sit</th>
+					<th>Amet</th>
+				</tr>	
+				<tr>
+				    <td><input type="checkbox" name="checkbox" id="checkbox" /></td>
+				    <td>xxxxxxxxxxxxxxx</td>
+				    <td>xxxxxxxxxxxxxxx</td>
+				    <td>xxxxxxxxxxxxxxx</td>
+				    <td>xxxxxxxxxxxxxxx</td>
+				  </tr>
+				  <tr>
+				    <td><input type="checkbox" name="checkbox" id="checkbox" /></td>
+				    <td>xxxxxxxxxxxxxxx</td>
+				    <td>xxxxxxxxxxxxxxx</td>
+				    <td>xxxxxxxxxxxxxxx</td>
+				    <td>xxxxxxxxxxxxxxx</td>
+				  </tr>
+				  <tr>
+				    <td><input type="checkbox" name="checkbox" id="checkbox" /></td>
+				    <td>xxxxxxxxxxxxxxx</td>
+				    <td>xxxxxxxxxxxxxxx</td>
+				    <td>xxxxxxxxxxxxxxx</td>
+				    <td>xxxxxxxxxxxxxxx</td>
+				  </tr>
+				  <tr>
+				    <td><input type="checkbox" name="checkbox" id="checkbox" /></td>
+				    <td>xxxxxxxxxxxxxxx</td>
+				    <td>xxxxxxxxxxxxxxx</td>
+				    <td>xxxxxxxxxxxxxxx</td>
+				    <td>xxxxxxxxxxxxxxx</td>
+				  </tr>
+				  <tr>
+				    <td><input type="checkbox" name="checkbox" id="checkbox" /></td>
+				    <td>xxxxxxxxxxxxxxx</td>
+				    <td>xxxxxxxxxxxxxxx</td>
+				    <td>xxxxxxxxxxxxxxx</td>
+				    <td>xxxxxxxxxxxxxxx</td>
+				  </tr>
+				  <tr>
+				    <td><input type="checkbox" name="checkbox" id="checkbox" /></td>
+				    <td>xxxxxxxxxxxxxxx</td>
+				    <td>xxxxxxxxxxxxxxx</td>
+				    <td>xxxxxxxxxxxxxxx</td>
+				    <td>xxxxxxxxxxxxxxx</td>
+				  </tr>
+				  
+				</table>
+				</div>
+			</div>
+		</div>
 	</body>
 </html>

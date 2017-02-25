@@ -54,15 +54,87 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+body{
+    font-family: "Arial", Helvetica, sans-serif;
+    font-size: 14px;
+}
 
-
-
-
-
-
-
-
-
+header{
+    width: 100%;
+    min-height: 100px;
+    background: #001c4c;
+}
+header img{
+    display: block;
+    margin-top: 20px;
+}
+.container{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 28px;
+    color: #002157;
+}
+h2{
+    font-size: 20px;
+    color: #676769;
+    padding: 10px;
+}
+h3{
+    font-size: 18px;
+    color: #676769;
+    padding: 10px;
+}
+.table-top{
+    background: #f6f6f8;
+    border: solid 1px #d2d2d4;
+}
+.table-top .top{
+    border: solid 1px #d2d2d4;
+}
+ul{
+    float: left;
+}
+ul li{
+    color: #676769;
+}
+.table-result{
+    background: #fff;
+    border: solid 1px #d2d2d4;
+    height: 100%;
+}
+p{
+    padding: 10px;
+}
+.total{
+    background: #f6f6f8;
+}
+button{
+    float: right;
+}
+.table-bottom{}
+.table-bottom th{
+    border-top: solid 1px #d2d2d4;
+    border-bottom: solid 1px #d2d2d4;
+    background: #f6f6f6;
+    font-weight: bold;
+    color: #000;
+    text-align: center;
+    height: 40px;
+}
+.table-bottom td{
+    border-bottom: solid 1px #d2d2d4;
+    color: #000;
+    text-align: center;
+    height: 30px;
+}
+.table-bottom input{
+    display: block;
+    float: left;
+    margin-left: 20px;
+}
 
 
 
